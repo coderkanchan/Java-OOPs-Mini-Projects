@@ -10,12 +10,16 @@ A simple console application that mimics real-life ATM functionalities.
 - **Control Flow:** Using `switch-case` and `do-while` loops.
 
 ### ✨ Features:
+
 - PIN Verification
 - Balance Inquiry
 - Cash Deposit & Withdrawal
 - **Secure PIN Change** (with old PIN validation)
 
 ### 🚀 How to Run:
+
 1. Navigate to `ATM-System` folder.
+
 2. Compile: `javac ATMApp.java`
+
 3. Run: `java ATMApp`
