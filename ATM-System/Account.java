@@ -33,10 +33,11 @@ public class Account {
     if (this.pin == oldPIN) {
       this.pin = newPIN;
       System.out.println("PIN successfully changed!");
+      
     }else if(this.pin == newPIN){
       System.out.println("PIN already in use Transaction failed.");
     }
-    
+
      else {
       System.out.println("Old PIN is incorrect. Transaction failed.");
     }
