@@ -24,8 +24,9 @@ public class Account {
       System.out.println("Insufficient funds!");
     } else {
       balance -= amount;
-      
+
       System.out.println("Please collect your cash:" + amount);
+      
       System.out.println("now your current balance is :" + balance);
     }
   }
